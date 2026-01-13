@@ -1,29 +1,10 @@
-# Descrición
+# IA AVANZADA NAV MESHES
 
-Emprega este arquivo para describir os cambios do teu proxecto.
+En este ejercicio creé el Agent **People** el cual asigne al personaje humano,
+y el Area **Not Allow** que asigne a un prefab de **WoodFloor01**, el cual esta dentro del corral de la escena
+y en el ***Area Mask*** del personaje le indique que no puede entrar en el suelo de madera del corral, tambien aproveche
+las escenas ya preexistentes y usando un prefab identico al usado en el ejemplo hice que los **Minions** pequeños no
+puedieran ni salir por la puerta principal de la aldea, sino que tuviesen que rodearla y que no pudieran subir a la rampa
+improvisada creada, si no que solo el grande pudiera.
 
-Utiliza o formato en markdown coas marcas básicas que aparcen no seguinte exemplo:
-
-# Título principal
-## Subtítulo
-
-Texto normal con **negriña** e *cursiva*.
-
-- Lista 1
-- Lista 2
-
-[Ligazón](https://exemplo.com)
-
-
-```csharp
-using UnityEngine;
-
-public class OlaMundo : MonoBehaviour
-{
-    void Start()
-    {
-        Debug.Log("Ola, mundo desde C#!");
-    }
-}
-
-```
+Solo el corral cuenta con el Agent y el Area nuevos que cree para el ejercicio.
